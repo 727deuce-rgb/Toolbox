@@ -1,0 +1,20 @@
+{
+  "name": "devhub-agents",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "langchain": "^0.1.0",
+    "openai": "^4.0.0",
+    "axios": "^1.6.0",
+    "bull": "^4.11.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^3.14.0",
+    "@types/node": "^20.0.0"
+  }
+}
